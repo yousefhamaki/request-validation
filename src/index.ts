@@ -1,4 +1,4 @@
-function QueryCheck(
+function check(
   query: {
     [key: string]: string | qs.ParsedQs | string[] | qs.ParsedQs[] | undefined;
   },
@@ -23,4 +23,4 @@ function QueryCheck(
   return result;
 }
 
-export default QueryCheck;
+export default check;
